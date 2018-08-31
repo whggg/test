@@ -1,0 +1,398 @@
+.box{
+	width: 100%;
+	height: auto;
+	margin: 0 auto;
+}
+/*头部区域*/
+.header{
+	width: 100%;
+	height: 1.06rem;
+	line-height: 1.06rem;
+	text-align: center;
+	position: relative;
+	margin-bottom: 0.1rem;
+}
+.header .back{
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 0.8rem;
+	height: 1.06rem;
+	display: flex;
+	align-items: center;
+}
+
+.header h4{
+	display: inline-block;
+	font-size: 0.47rem;
+}
+
+/*tab选项卡区域*/
+.tab{
+	width: 100%;
+	height: auto;
+	margin: 0 auto;
+}
+.tab .tab_t{
+	width: 100%;
+	background: #373531;
+	height: 1rem;
+	line-height: 1rem;
+	margin-bottom: 0.2rem;
+}
+.tab .tab_t ul li{
+	float: left;
+	color: #fff;
+	width: 25%;
+	text-align: center;
+	font-size: 0.37rem;
+
+}
+.tab .tab_t ul li span{
+	padding-bottom:0.1rem;
+}
+.selec{
+	border-bottom: 2px solid #e1c875;
+}
+.tab .tab_c{
+	width: 100%;
+	height: auto;
+	margin:0 auto;
+}
+.tab .tab_c .tabs{
+	width: 90%;
+	margin: 0 auto;
+	height: auto;
+	display: none;
+}
+.tab .tab_c .tab1{
+	display: block;
+}
+.tab1 ul li{
+	width: 100%;
+	height: 1.33rem;
+	line-height: 1.33rem;
+	border-bottom:1px solid #a5824e;
+	text-align: right;
+}
+.tab1 ul li span{
+	float: left;
+}
+.tab1 ul li input{
+	font-size: 0.4rem;
+	border: 0;
+	background: 0;
+	text-align: right;
+	display: inline-block;
+	height: 0.8rem;
+}
+.tab1 ul li b{
+	color: #a5824e;
+	margin-left: 0.1rem;
+	font-size: 0.4rem;
+}
+.tab .tab_c .tabs .sub{
+	width: 100%;
+	text-align: center;
+	margin-top: 0.8rem;
+}
+.tab .tab_c .tabs .submit{
+	display: inline-block;
+	height: 1.73rem;
+	width: 1.73rem;
+	background: #a5824e;
+	border-radius: 50%;
+	border:0;
+	color: #fff;
+	font-size: 0.47rem;
+}
+.tab2 ul li{
+	width: 100%;
+	height: 1.33rem;
+	line-height: 1.33rem;
+	border-bottom:1px solid #a5824e;
+	text-align: right;
+}
+.tab2 ul li span{
+	float: left;
+}
+.tab2 ul li input{
+	font-size: 0.4rem;
+	border: 0;
+	background: 0;
+	text-align: right;
+	display: inline-block;
+	height: 0.8rem;
+}
+.tab2 ul li b{
+	font-size: 0.4rem;
+	font-weight: normal;
+}
+.tab2 ul li strong{
+	color: #a5824e;
+	margin-left: 0.1rem;
+	font-size: 0.4rem;
+}
+.tab2 ol li{
+	border-top:1px solid #a5824e;
+	border-bottom:1px solid #a5824e;
+	width: 100%;
+	height: 1.33rem;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.tab2 ol li .img1,.tab2 ol li .img2{
+	display: inline-block;
+	vertical-align: middle;
+}
+.tab2 ol li .left span{
+	font-size: 0.47rem;
+	margin-left: 0.1rem;
+	color: #a5824e;
+}
+.tab2 ol li .txt{
+	display: inline-block;
+	text-align: right;
+	vertical-align: middle;
+}
+.tab3 .tab3s{
+	width: 100%;
+	height: auto;
+	margin: 0 auto;
+	margin-bottom: 0.6rem;
+
+}
+.tab3 .tab3s .top{
+	width: 100%;
+	height: 1.33rem;
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+}
+.clear{
+	clear: both;
+}
+.tab3 .tab3s ul li{
+	float: left;
+	background: #f0eee8;
+	border-radius: 20px;
+	padding: 0.2rem;
+	margin-right: 0.2rem;
+	margin-bottom: 0.2rem;
+	font-size: 0.37rem;
+}
+.tab3 .tab3s ul .lishow{
+	background: #b7a475;
+	color: #fff;
+}
+.tab4 ul li{
+	border-bottom:2px solid #a5824e;
+	width: 100%;
+	height: 1.33rem;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.tab4 .chengyan{
+	width: 100%;
+	height: auto;
+	margin-bottom: 1.33rem;
+}
+.tab4 .chengyan .cy_t,.tab4 .chengyan .cy_c{
+	width: 100%;
+	height: 1.33rem;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.cy_c{
+	border-bottom:2px solid #a5824e;
+}
+.cy_tr>div{
+	display: inline-block;
+}
+.cy_tr{
+	background: #efece5;
+	border-radius: 5px;
+	padding: 0.1rem;
+}
+.cy_cr .img2{
+	display: inline-block;
+	position: relative;
+}
+.cy_cr .img2 img{
+	position: absolute;
+	bottom: -0.2rem;
+}
+.cy_cr{
+	margin-right: 0.4rem;
+}
+.cy_cr span{
+	color: #a5824e;
+	font-size: 0.4rem;
+}
+.cy_f{
+	width: 90%;
+	margin: 0  auto;
+}
+.cy_f .right .imgs{
+	display: inline-block;
+	position: relative;
+}
+.cy_f .right{
+	margin-right: 0.4rem;
+	color: #a5824e;
+	font-size: 0.4rem;
+}
+.cy_f .right .imgs img{
+	position: absolute;
+	bottom: -0.2rem;
+}
+.cy_f   input{
+	background: 0;
+	border:0;
+	text-align: right;
+	font-size: 0.37rem;
+}
+.cy_f  .shengri{
+	display: none;
+}
+.cy_f  .shengri input{
+	color: #a5824e;
+}
+.liebiao2,.liebiao3{
+	display: none;
+}
+.xiangmu{
+	width: 100%;
+	margin: 0 auto;
+	height: auto;
+}
+.xiangmu ul li{
+	float: left;
+	background: #f0eee8;
+	border-radius: 20px;
+	padding: 0.2rem;
+	margin-right: 0.2rem;
+	margin-bottom: 0.2rem;
+	font-size: 0.37rem;
+	border:0;
+	width: auto;
+	height: auto;
+}
+.xiangmu h4{
+	font-size: 0.42rem;
+	height: 1rem;
+	line-height: 1rem;
+}
+
+.xiangmu ul .lishow{
+	background: #b7a475;
+	color: #fff;
+}
+.xiangmu .other{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	width: 100%;
+	height: 1.33rem;
+	border-bottom:2px solid #a5824e;
+}
+.xiangmu .other input{
+	text-align: right;
+	border:0;
+	background: 0;
+	font-size: 0.37rem;
+}
+.xingbie{
+	width: 100%;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	background: #efeff4;
+	text-align: center;
+	font-size: 0.4rem;
+	margin: 0 auto;
+	z-index: 100;
+	display: none;
+}
+.xingbie p,.xingbie h4{
+	height: 1.06rem;
+	width: 100%;
+	background: #fff;
+	line-height: 1.06rem;
+}
+.xingbie p:first-child{
+	margin-bottom: 0.05rem;
+}
+.xingbie h4{
+	margin-top: 0.2rem;
+}
+.chengy{
+	width: 100%;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	background: #efeff4;
+	text-align: center;
+	font-size: 0.4rem;
+	margin: 0 auto;
+	z-index: 100;
+	display: none;
+}
+.chengy p,.chengy h4{
+	height: 1.06rem;
+	width: 100%;
+	background: #fff;
+	line-height: 1.06rem;
+}
+.chengy p:first-child{
+	margin-bottom: 0.05rem;
+}
+.chengy h4{
+	margin-top: 0.2rem;
+}
+.zhezhao{
+	background: #000;
+	opacity: .5;
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	top: 0;
+	display: none;
+}
+.tab1 .tanchu{
+	background: #fff;
+	width: 80%;
+	height: auto;
+	text-align: center;
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	display: none;
+	z-index: 100;
+}
+.tab1 .tanchu p{
+	height: 0.8rem;
+	line-height: 0.8rem;
+} 
+.tab1 .tanchu span{
+	font-size: 0.42rem;
+	display: block;
+	height: 1rem;
+	line-height: 1rem;
+	color: #888;
+	border-bottom:1px solid #ddd;
+} 
+.tab1 .tanchu button{
+	color: #0bb20c;
+	height: 0.8rem;
+	line-height: 0.8rem;
+	border:0;
+	background: 0;
+} 

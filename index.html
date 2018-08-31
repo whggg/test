@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=no">
+	<title>首页</title>
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/index.css">
+	<link rel="stylesheet" href="css/animate.min.css">
+	<script src="js/flexible.debug.js"></script>
+	<script src="js/flexible_css.debug.js"></script>
+	<script src="js/jquery-1.12.2.min.js"></script>
+	<script>
+		$(function(){
+			setTimeout(function(){
+                    $('.head_tr').animate({right:'-30px'},1000);
+					$('.head_ct').css('transform','rotate(0deg)')
+	
+                },10);  
+
+			$('.head_cf').click(function(event) {
+				$('.erweima').show();
+				$('.zhezhao').show();
+			});
+		
+			$('.erweima span').click(function(event) {
+				$('.erweima').hide();
+				$('.zhezhao').hide();
+			});
+
+
+			var timeout = 50;
+			var index = 0;
+			var addClassOn;
+			addClassOn=setInterval(function(){
+				if (index==$('.main ul li').length) {
+					clearInterval(addClassOn);
+					addClassOn=null;
+				}else {
+					$('.main ul li').eq(index++).addClass('rubberBand');
+				}
+			},timeout);
+
+		})
+
+	</script>
+		
+</head>
+<body>
+	<div class="box">
+	<!-- 头部信息 -->
+		<div class="header">
+			<div class="head_t">
+				<div class="head_tl">
+					<div class="logo">
+						<img src="https://ss1.bdstatic.com/70cFuXSh_Q1YnxGkpoWK1HF6hhy/it/u=3163779925,111663016&fm=27&gp=0.jpg" alt="">
+					</div>
+					<span>微信注册会员</span>
+				</div>
+				<div class="head_tr">
+					<span>会员权益</span>
+					<img src="img/quanyi.png" alt="">
+				</div>
+			</div>
+			<div class="head_c animated flipInX" id="animate">
+				<div class="head_ct">
+					<div class="imgs">
+						<img src="img/VIP.png" alt="">
+					</div>
+					<div class="txt">
+						<p>201423888</p>
+						<p>微信注册会员</p>
+						<p>注册会员</p>
+					</div>
+					<div class="head_cf">
+						<img src="img/erweima.png" alt="">
+					</div>
+				</div>
+			</div>
+			<div class="zhezhao"></div>
+			<div class="erweima">
+				<h4>预览二维码</h4>
+				<div class="tupian">
+					<img src="img/erweima.png" alt="">
+				</div>
+				<span>确定</span>
+			</div>
+		</div>
+
+	<!-- 内容区域 -->
+		<div class="main">
+			<ul>
+				<li id="animate" class="animated">
+					<a href="gerenxinxi.html"><div class="img"><img src="img/001.png" alt=""></div><p>个人信息</p><span style="display: none;">New</span></a>
+				</li>
+				<li id="animate" class="animated">
+					<a href=""><div class="img"><img src="img/002.png" alt=""></div><p>我的票券</p><span style="display: none;">New</span></a>
+				</li>
+				<li id="animate" class="animated">
+					<a href=""><div class="img"><img src="img/003.png" alt=""></div><p>积分管理</p><span style="display: none;">New</span></a>
+				</li>
+				<li id="animate" class="animated">
+					<a href="kecheng.html"><div class="img"><img src="img/004.png" alt=""></div><p>学院课程</p><span>New</span></a>
+				</li>
+				<li id="animate" class="animated">
+					<a href=""><div class="img"><img src="img/005.png" alt=""></div><p>互动积分</p><span>New</span></a>
+				</li>
+				<li id="animate" class="animated">
+					<a href=""><div class="img"><img src="img/006.png" alt=""></div><p>积分换礼</p><span>New</span></a>
+				</li>
+				<li id="animate" class="animated">
+					<a href=""><div class="img"><img src="img/007.png" alt=""></div><p>体验金卡</p><span style="display: none;">New</span></a>
+				</li>
+				<li id="animate" class="animated">
+					<a href=""><div class="img"><img src="img/008.png" alt=""></div><p>停车缴费</p><span style="display: none;">New</span></a>
+				</li>
+				<li id="animate" class="animated">
+					<a href=""><div class="img"><img src="img/009.png" alt=""></div><p>艺术展览</p><span>New</span></a>
+				</li>
+			</ul>
+		</div class="main">
+
+	<!-- 底部区域 -->
+		<div class="footer">
+			<span>KLUB*11</span>
+		</div>
+			
+	</div>
+</body>
+</html>

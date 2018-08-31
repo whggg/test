@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=no">
+	<title>学院课程</title>
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/kecheng.css">
+	<link rel="stylesheet" href="css/animate.min.css">
+	<script src="js/flexible.debug.js"></script>
+	<script src="js/flexible_css.debug.js"></script>
+	<script src="js/jquery-1.12.2.min.js"></script>
+	<script>
+		$(function(){
+			var timeout = 100;
+			var index = 0;
+			var addClassOn;
+			addClassOn=setInterval(function(){
+				if (index==$('.box #animate').length) {
+					clearInterval(addClassOn);
+					addClassOn=null;
+				}else {
+					$('.box #animate').eq(index++).addClass('bounce');
+					// $('.box #animate').eq(index++).addClass('opacity');
+				}
+			},timeout);
+
+		})
+	</script>
+</head>
+<body>
+	<div class="box">
+	<!-- 头部区域 -->
+		<div class="header">
+			<div class="head_l">
+				<img src="img/caidan.png" alt="">
+			</div>
+			<div class="head_c">
+				<input type="text" placeholder="搜索">
+			</div>
+			<div class="head_r">
+				<img src="img/geren.png" alt="">
+			</div>
+		</div>
+	<!-- 导航页区域 -->
+		<div class="nav">
+			<div class="navs animated" id="animate">
+				<img src="img/infinity.png" alt="">
+			</div>
+			<div class="navs animated" id="animate">
+				<img src="img/design.png" alt="">
+			</div>
+			<div class="navs animated" id="animate">
+				<img src="img/food.png" alt="">
+			</div>
+			<div class="navs animated" id="animate">
+				<img src="img/wellness.png" alt="">
+			</div>
+		</div>
+	<!-- 内容区域 -->
+		<div class="main">
+			<ul>
+				<li class="animated" id="animate">
+					<div class="li_t">
+						<img src="img/ke1.jpg" alt="">
+					</div>
+					<div class="li_c">
+						<h4>情侣对戒-誓言</h4>
+						<span>全爱工匠</span>
+					</div>
+					<div class="li_f">
+						<span>￥<strong>399</strong></span>
+						<button>查看</button>
+					</div>
+				</li>
+				<li class="animated" id="animate">
+					<div class="li_t">
+						<img src="img/ke2.jpg" alt="">
+					</div>
+					<div class="li_c">
+						<h4>情侣对戒-誓言</h4>
+						<span>全爱工匠</span>
+					</div>
+					<div class="li_f">
+						<span>￥<strong>399</strong></span>
+						<button>查看</button>
+					</div>
+				</li>
+				<li class="animated" id="animate">
+					<div class="li_t">
+						<img src="img/ke3.jpg" alt="">
+					</div>
+					<div class="li_c">
+						<h4>情侣对戒-誓言</h4>
+						<span>全爱工匠</span>
+					</div>
+					<div class="li_f">
+						<span>￥<strong>399</strong></span>
+						<button>查看</button>
+					</div>
+				</li>
+				<li class="animated" id="animate">
+					<div class="li_t">
+						<img src="img/ke4.jpg" alt="">
+					</div>
+					<div class="li_c">
+						<h4>情侣对戒-誓言</h4>
+						<span>全爱工匠</span>
+					</div>
+					<div class="li_f">
+						<span>￥<strong>399</strong></span>
+						<button>查看</button>
+					</div>
+				</li>
+				<li class="animated" id="animate">
+					<div class="li_t">
+						<img src="img/ke5.jpg" alt="">
+					</div>
+					<div class="li_c">
+						<h4>情侣对戒-誓言</h4>
+						<span>全爱工匠</span>
+					</div>
+					<div class="li_f">
+						<span>￥<strong>399</strong></span>
+						<button>查看</button>
+					</div>
+				</li>
+				<li class="animated" id="animate">
+					<div class="li_t">
+						<img src="img/ke6.jpg" alt="">
+					</div>
+					<div class="li_c">
+						<h4>情侣对戒-誓言</h4>
+						<span>全爱工匠</span>
+					</div>
+					<div class="li_f">
+						<span>￥<strong>399</strong></span>
+						<button>查看</button>
+					</div>
+				</li>
+			</ul>
+			<div class="clear"></div>
+		</div>
+	</div>
+</body>
+</html>
